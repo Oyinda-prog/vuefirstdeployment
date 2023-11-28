@@ -95,7 +95,7 @@ validations(){
 full_name:{required,max:maxLength(10),min:minLength(5)},
   email:{required,email},
   phone_number:{required},
-  password:{required,min:min}
+  password:{required,min:minLength(5)}
 
  }
  }
